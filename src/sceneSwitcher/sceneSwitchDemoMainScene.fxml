@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sceneSwitcher.SceneSwitchDemoMainController">
+   <top>
+      <Label text="Main Scene" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+      <Button fx:id="changeSceneButton" mnemonicParsing="false" onAction="#changeScene" text="Click Here" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <Button fx:id="showPopUpStageButton" mnemonicParsing="false" onAction="#showPopUpStage" text="Show Pop Up Stage" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
