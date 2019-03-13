@@ -4,7 +4,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.BorderPane?>
 
-<BorderPane xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sceneSwitcher.SceneSwitchDemoMainController">
+<BorderPane xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simpleDemo.MainController">
    <top>
       <Label text="Main Scene" BorderPane.alignment="CENTER" />
    </top>

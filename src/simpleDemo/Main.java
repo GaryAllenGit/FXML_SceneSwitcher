@@ -1,4 +1,4 @@
-package sceneSwitcher;
+package simpleDemo;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sceneSwitchDemoMainScene.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("MainScene.fxml"));
         primaryStage.setTitle("Scene Switch Demo");
         primaryStage.setScene(new Scene(root, 300, 140));
         primaryStage.show();

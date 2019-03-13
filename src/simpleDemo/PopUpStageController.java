@@ -1,4 +1,4 @@
-package sceneSwitcher;
+package simpleDemo;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;

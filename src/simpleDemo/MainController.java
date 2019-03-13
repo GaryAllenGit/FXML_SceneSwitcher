@@ -1,5 +1,6 @@
-package sceneSwitcher;
+package simpleDemo;
 
+import complexDemo.Employee;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -11,13 +12,14 @@ import javafx.stage.Window;
 
 import java.io.IOException;
 
-public class SceneSwitchDemoMainController {
+public class MainController {
+
     public Button changeSceneButton;
     public Button showPopUpStageButton;
 
     public void changeScene(ActionEvent actionEvent) throws IOException {
         Window mainWindow = changeSceneButton.getScene().getWindow();
-        Parent newRoot = FXMLLoader.load(getClass().getResource("sceneSwitchDemoChangedScene.fxml"));
+        Parent newRoot = FXMLLoader.load(getClass().getResource("ChangedScene.fxml"));
         mainWindow.getScene().setRoot(newRoot);
     }
 
